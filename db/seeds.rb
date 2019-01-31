@@ -14,7 +14,7 @@ end
 5.times do
     c = Course.create!(name: Faker::Educator.course)
 end
-=end
+
 
 100.times do
     csj = CourseStudentJoin.create!(course_id: rand(1..5), student_id: rand(1..50))
